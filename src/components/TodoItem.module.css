@@ -1,0 +1,49 @@
+.todoItem {
+  display: flex;
+  text-align: left;
+  cursor: pointer;
+}
+
+.todoItem > * {
+  border-right: 1px solid lightgray;
+  padding: 20px;
+  font-size: 18px;
+}
+.todoTitle {
+  width: 80px;
+}
+.todoBody {
+  flex: 3;
+}
+.todoBody > span {
+  color: gray;
+  font-size: 12px;
+}
+.todoItem > button {
+  height: 50px;
+  width: 80px;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid teal;
+  position: relative;
+  top: 20px;
+  font-weight: bold;
+  color: teal;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.todoItem > button:focus {
+  outline: 0px;
+}
+
+.todoToggle {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.todoItem > .deleteTodo {
+  border-color: red;
+  color: red;
+}

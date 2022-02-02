@@ -1,0 +1,35 @@
+.inputTitle,
+.inputBody {
+  width: 100px;
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 0px 5px;
+  border: 1px solid lightgray;
+}
+.inputBody {
+  width: 300px;
+  margin-right: 1px;
+}
+form > * {
+  outline: 0px;
+}
+form {
+  margin-bottom: 10px;
+}
+
+.addBtn {
+  background-color: #36d9b6;
+  width: 100px;
+  height: 43px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 2px;
+  position: relative;
+  bottom: -1px;
+  cursor: pointer;
+}
+
+.addbtn:focus {
+  outline: 0px;
+}
